@@ -125,7 +125,7 @@ while True:
                     print(
                         f"{colored(value, 'green')} {colored(print_xml(value, 'ID'), 'yellow')}"
                     )
-                print(f"{back}\n[2] Выйти")
+                print(f"{colored("[1] Назад", "blue")}\n[2] Выйти")
                 do_additional = input()
                 if do_additional == "1":
                     continue
@@ -143,7 +143,7 @@ while True:
                     print(
                         f"{colored(value, 'green')} {colored(print_xml(value, 'NumCode'), 'yellow')}"
                     )
-                print(f"{back}\n[2] Выйти")
+                print(f"{colored("[1] Назад", "blue")}\n[2] Выйти")
                 do_additional = input()
                 if do_additional == "1":
                     continue
@@ -161,7 +161,7 @@ while True:
                     print(
                         f"{colored(value, 'green')} {colored(print_xml(value, 'Nominal'), 'yellow')}"
                     )
-                print(f"{back}\n[2] Выйти")
+                print(f"{colored("[1] Назад", "blue")}\n[2] Выйти")
                 do_additional = input()
                 if do_additional == "1":
                     continue
